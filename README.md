@@ -4,8 +4,7 @@ This is a simple, **accessible**, and **responsive** Profile Card built using **
 
 ## 🌐 Live Demo
 
-👉 [Click here to view the live site](https://your-live-link.netlify.app)  
-*(Replace with your actual deployed URL on Netlify, GitHub Pages, or Vercel)*
+👉 [Click here to view the live site](https://hng-13-blue.vercel.app/)  
 
 ---
 
@@ -35,5 +34,5 @@ This is a simple, **accessible**, and **responsive** Profile Card built using **
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/profile-card.git
-cd profile-card
+git clone https://github.com/heptuene123098/HNG13
+cd HNG13
