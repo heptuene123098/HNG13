@@ -36,6 +36,7 @@ This is a simple, **accessible**, and **responsive** Profile Card built using **
 ```bash
 git clone https://github.com/heptuene123098/HNG13
 cd HNG13
+```
 
 ### 2. Open in Browser
 
