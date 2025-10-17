@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card - Frontend Stage Zero</title>
+        <link rel="stylesheet" type="text/css" href="stage-zero.css">
+</head>
+<body>
+    <!-- Profile Card Root Container -->
+    <article data-testid="test-profile-card" class="profile-card">
+        <!-- Card Header with Name -->
+        <header class="profile-header">
+            <h2 data-testid="test-user-name" class="user-name">OTUENE HEPHZIBAH REGINALD</h2>
+        </header>
+        
+        <!-- Main Content Area -->
+        <div class="profile-content">
+            <!-- Avatar Section -->
+            <figure class="avatar-section">
+                <img 
+                    data-testid="test-user-avatar" 
+                    src="Avatar.JPG" 
+                    alt="Profile photo of Hephzibah Otuene" 
+                    class="avatar"
+                >
+                <figcaption>Tech Consultant</figcaption>
+            </figure>
+            
+            <!-- Profile Details -->
+            <div class="profile-details">
+                <!-- Biography -->
+                <p data-testid="test-user-bio" class="user-bio">
+                    Passionate tech consultant with 5+ years of experience creating accessible, 
+                    responsive web applications, analysing data and communicating with stakeholders. 
+                    Loves clean code and user-centered design.
+                </p>
+                
+                <!-- Current Time -->
+                <div class="time-section">
+                    <span>Current time (ms):</span>
+                    <span data-testid="test-user-time" id="current-time" class="current-time"></span>
+                </div>
+                
+                <!-- Social Links -->
+                <nav>
+                    <ul data-testid="test-user-social-links" class="social-links">
+                        <li>
+                            <a 
+                                href="https://twitter.com/@itz_hebzlove" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-twitter"
+                                class="social-link"
+                            >
+                                Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://instagram.com/itz_hebzlove" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-instagram"
+                                class="social-link"
+                            >
+                                Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://github.com/heptuene123098" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-github"
+                                class="social-link"
+                            >
+                                GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://linkedin.com/in/hephzibah-otuene" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-linkedin"
+                                class="social-link"
+                            >
+                                LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!-- Hobbies Section -->
+                <section class="hobbies-section">
+                    <h3>Hobbies</h3>
+                    <ul data-testid="test-user-hobbies" class="hobbies-list">
+                        <li>Photography</li>
+                        <li>Hiking</li>
+                        <li>Reading tech blogs</li>
+                        <li>Playing guitar</li>
+                    </ul>
+                </section>
+                
+                <!-- Dislikes Section -->
+                <section class="dislikes-section">
+                    <h3>Dislikes</h3>
+                    <ul data-testid="test-user-dislikes" class="dislikes-list">
+                        <li>Slow internet</li>
+                        <li>Bad coffee</li>
+                        <li>Traffic jams</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </article>
+    <script src="stage-zero.js"></script>
+</body>
+</html>
