@@ -43,15 +43,17 @@ cd HNG13
 
 Just open the index.html file in your browser:
 
-# On macOS
+#### On macOS
 open index.html
 
-# On Windows
+#### On Windows
 start index.html
 
-# Or just double-click the file
+#### Or just double-click the file
 
 No build tools or installations are required.
+
+---
 
 ## 🧪 Testing Data Attributes
 
@@ -77,5 +79,5 @@ This project includes the following data-testid attributes for automated and man
 
 🤝 Credits
 
-Crafted with ❤️ by its_hebzlove
-Inspired by HNG13.
+Crafted with ❤️ by Its_hebzlove
+Inspired by **HNG13**.
