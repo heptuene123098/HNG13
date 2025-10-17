@@ -36,3 +36,44 @@ This is a simple, **accessible**, and **responsive** Profile Card built using **
 ```bash
 git clone https://github.com/heptuene123098/HNG13
 cd HNG13
+
+### 2. Open in Browser
+
+Just open the index.html file in your browser:
+
+# On macOS
+open index.html
+
+# On Windows
+start index.html
+
+# Or just double-click the file
+
+No build tools or installations are required.
+
+## 🧪 Testing Data Attributes
+
+This project includes the following data-testid attributes for automated and manual testing:
+
+* test-profile-card
+
+* test-user-name
+
+* test-user-bio
+
+* test-user-time
+
+* test-user-avatar
+
+* test-user-social-links
+
+* test-user-social-twitter, test-user-social-instagram, test-user-social-github, test-user-social-linkedin
+
+* test-user-hobbies
+
+* test-user-dislikes
+
+🤝 Credits
+
+Crafted with ❤️ by its_hebzlove
+Inspired by HNG13.
