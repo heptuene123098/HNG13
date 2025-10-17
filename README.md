@@ -1,4 +1,4 @@
-# 🚀 HNG Internship Stage 0 - Profile Card
+# HNG Internship Stage Zero - Profile Card
 
 This is a simple, **accessible**, and **responsive** Profile Card built using **HTML**, **CSS**, and **vanilla JavaScript** for the **Frontend Wizards - Stage 0 Task** in the HNG Internship.
 
