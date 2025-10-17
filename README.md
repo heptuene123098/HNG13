@@ -5,6 +5,7 @@ This is a simple, **accessible**, and **responsive** Profile Card built using **
 ## 🌐 Live Demo
 
 👉 [Click here to view the live site](https://hng-13-blue.vercel.app/)  
+*(Right-click the link to open in a new tab)*
 
 ---
 
