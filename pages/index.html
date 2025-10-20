@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card - Frontend Stage Zero</title>
-    <link rel="icon" type="image/jpg" href="HNG Logo.jpg">
-        <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Frontend Stage Cero_Uno Task</title>
+    <link rel="icon" type="image/jpg" href="/HNG Logo.jpg">      
+        <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-    <!-- Profile Card Root Container -->
+    <!-- Navigation -->
+    <nav class="navbar" data-testid="test-navbar">
+        <div class="nav-container">
+            <a href="https://hng.tech/" target="_blank" class="logo" data-testid="test-logo"><img src="/HNG Logo.jpg" alt="Frontend Wizards Logo" /><span> Frontend Wizards</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active" data-testid="test-nav-profile">Profile</a></li>
+                <li><a href="contact.html" class="nav-link" data-testid="test-nav-contact">Contact</a></li>
+                <li><a href="about.html" class="nav-link" data-testid="test-nav-about">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content-->
+    <main class="main-content">
+
+    <!-- Profile Card Container -->
+    <section id="profile-page" class="page active" data-testid="test-profile-page">
     <article data-testid="test-profile-card" class="profile-card">
         <!-- Card Header with Name -->
         <header class="profile-header">
@@ -21,7 +37,7 @@
             <figure class="avatar-section">
                 <img 
                     data-testid="test-user-avatar" 
-                    src="Avatar.JPG" 
+                    src="/Avatar.JPG" 
                     alt="Profile photo of Hephzibah Otuene" 
                     class="avatar"
                 >
@@ -116,6 +132,13 @@
             </div>
         </div>
     </article>
-    <script src="script.js"></script>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" data-testid="test-footer">
+        <p>&copy; 2025 Frontend Itz_hebzlove Wizard. All rights reserved.</p>
+    </footer>
+    <script src="/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Stage Cero_Uno Task</title>
+    <link rel="icon" type="image/jpg" href="/HNG Logo.jpg">      
+        <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" data-testid="test-navbar">
+        <div class="nav-container">
+            <a href="https://hng.tech/" target="_blank" class="logo" data-testid="test-logo"><img src="/HNG Logo.jpg" alt="Frontend Wizards Logo" /><span> Frontend Wizards</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link" data-testid="test-nav-profile">Profile</a></li>
+                 <li><a href="contact.html" class="nav-link" data-testid="test-nav-contact">Contact</a></li>
+                <li><a href="about.html" class="nav-link" data-testid="test-nav-about">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content-->
+    <main class="main-content">
+        <!-- Contact Us Page -->
+        <section id="contact-page" class="page" data-testid="test-contact-page">
+            <form class="contact-form" data-testid="test-contact-form">
+                <h2 class="form-title">Contact Us</h2>
+                
+                <div class="form-group">
+                    <label for="full-name" class="form-label">Full Name</label>
+                    <input 
+                        type="text" 
+                        id="full-name" 
+                        class="form-input" 
+                        data-testid="test-contact-name"
+                        aria-describedby="name-error"
+                        required
+                    >
+                    <div id="name-error" class="error-message" data-testid="test-contact-error-name">
+                        Please enter your full name
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        class="form-input" 
+                        data-testid="test-contact-email"
+                        aria-describedby="email-error"
+                        required
+                    >
+                    <div id="email-error" class="error-message" data-testid="test-contact-error-email">
+                        Please enter a valid email address
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input 
+                        type="text" 
+                        id="subject" 
+                        class="form-input" 
+                        data-testid="test-contact-subject"
+                        aria-describedby="subject-error"
+                        required
+                    >
+                    <div id="subject-error" class="error-message" data-testid="test-contact-error-subject">
+                        Please enter a subject
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea 
+                        id="message" 
+                        class="form-textarea" 
+                        rows="5" 
+                        data-testid="test-contact-message"
+                        aria-describedby="message-error"
+                        required
+                    ></textarea>
+                    <div id="message-error" class="error-message" data-testid="test-contact-error-message">
+                        Message must be at least 10 characters long
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn" data-testid="test-contact-submit">
+                    Send Message
+                </button>
+                
+                <div class="success-message" data-testid="test-contact-success">
+                    Thank you for your message! We'll get back to you soon.
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" data-testid="test-footer">
+        <p>&copy; 2025 Frontend Itz_hebzlove Wizard. All rights reserved.</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
