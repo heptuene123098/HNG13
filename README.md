@@ -1,6 +1,6 @@
-# HNG Internship Stage Zero - Profile Card
+# HNG Internship Stage Zero and One - Profile, Contact Us and About Me pages.
 
-This is a simple, **accessible**, and **responsive** Profile Card built using **HTML**, **CSS**, and **vanilla JavaScript** for the **Frontend Wizards - Stage 0 Task** in the HNG Internship.
+This is a simple, **accessible**, and **responsive** multi-page web application with Profile, About Me, and Contact pages built using **HTML**, **CSS**, and **vanilla JavaScript** for the **Frontend Wizards - Stage 0 & 1 Task** in the HNG Internship.
 
 ## 🌐 Live Demo
 
@@ -18,6 +18,15 @@ This is a simple, **accessible**, and **responsive** Profile Card built using **
 - ✅ Avatar with alt text
 - ✅ Hobbies & Dislikes sections
 - ✅ External social media links with proper attributes
+- ✅ Personal biography
+- ✅ Program goals
+- ✅ Areas for improvement
+- ✅ Reflective sections
+- ✅ Form with validation
+- ✅ Required field validation
+- ✅ Email format validation
+- ✅ Message length validation
+- ✅ Success feedback
 - ✅ Fully testable with `data-testid` attributes
 
 ---
@@ -76,6 +85,36 @@ This project includes the following data-testid attributes for automated and man
 * test-user-hobbies
 
 * test-user-dislikes
+
+* test-about-bio
+
+* test-about-goals
+
+* test-about-confidence
+
+* test-about-future-note
+
+* test-about-extra
+
+* test-contact-name
+
+* test-contact-email
+
+* test-contact-subject
+
+* test-contact-message
+
+* test-contact-submit
+
+* test-contact-error-name
+
+* test-contact-error-email
+
+* test-contact-error-subject
+
+* test-contact-error-message
+
+* test-contact-success 
 
 🤝 Credits
 
